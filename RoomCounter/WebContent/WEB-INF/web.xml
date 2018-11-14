@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>RoomCounter</display-name>
+  <context-param>
+    <param-name>MONGODB_HOST</param-name>
+    <param-value>localhost</param-value>
+  </context-param>
+  <context-param>
+    <param-name>MONGODB_PORT</param-name>
+    <param-value>27017</param-value>
+  </context-param>
+  <welcome-file-list>
+    <welcome-file>Creation Menu.jsp</welcome-file>
+  </welcome-file-list>
+      <servlet>
+        <servlet-name>Home</servlet-name>
+        <servlet-class>com.mongodb.servlets.MainServlet</servlet-class>
+    </servlet>
+  <servlet-mapping>
+        <servlet-name>Home</servlet-name>
+        <url-pattern></url-pattern>
+    </servlet-mapping>
+</web-app>

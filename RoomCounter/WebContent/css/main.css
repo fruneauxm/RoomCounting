@@ -1,0 +1,116 @@
+.dynam-select {
+	width: 100%;
+	height: 100%;
+}
+  
+  .forms {
+  	float: left;
+  }
+  
+  input {
+  width: 200px;
+  }
+  
+  .current-db-container {
+  	float: left;
+  	margin-left: 75px;
+  }
+  .current-db {
+  	border: 1px solid #DCDCDC;
+  	width: 300px;
+  	margin-top: 25px;
+  	margin-bottom: 10px;
+/*   	overflow-y: scroll; */
+  	float: left;
+  }
+  
+  button.btn {
+    display: inline-block;
+    clear: none;
+    margin: 0 0 13px;
+    padding-top: .14rem;
+    padding-bottom: .2rem;
+    border-width: .0625rem;
+    border-color: #c6c6c6;
+    border-radius: 4px;
+    background-color: #e2ebeb;
+    text-align: left;
+  }
+  
+  .container-fluid {
+  margin-bottom: 20px;
+  
+  }
+  
+  .container-fluid.container-1 {
+    border-width: .0625rem;
+    border-style: solid;
+    height: 500px;
+  }
+
+  .container-fluid.container-2 {
+    border-width: .0625rem;
+    border-style: solid;
+    height: 300px;
+  }
+
+  .container-fluid.container-3 {
+    border-width: .0625rem;
+    border-style: solid;
+    height: 300px;
+  }
+  
+    h4.large-heading {
+    padding-top: 20px;
+  }
+
+@media screen and (min-width: 17.75rem) {
+  /* Text Elements */
+
+  span.text-element.small-heading {
+    padding-top: 9px;
+    padding-bottom: 10px;
+  }
+}
+
+@media screen and (min-width: 36rem) {
+  /* Text Elements */
+
+  h1.heading-1 {
+    margin-bottom: 1.42rem;
+  }
+
+  span.text-element.small-heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+}@media screen and (min-width: 48rem) {
+  /* Text Elements */
+
+
+  span.text-element.small-heading {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+
+@media screen and (min-width: 62rem) {
+  /* Text Elements */
+
+  h1.heading-1 {
+    padding-bottom: 37px;
+  }
+
+  h4 span.heading-text-1 {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+
+  span.text-element.small-heading {
+    padding-top: 10px;
+    padding-right: 0;
+    padding-bottom: 10px;
+  }
+}
